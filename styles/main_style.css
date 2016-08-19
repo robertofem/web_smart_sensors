@@ -4,12 +4,45 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
 
 body {
-	width: 874px;
-	margin: 0 auto;
-    background-color: white;
+    background: #e1e5e8;
+        background-color: rgb(225, 229, 232);
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+}0
+
+.cl{
+	font-size: 0;
+	line-height: 0;
+	clear: both;
+	display: block;
+	height: 0;
 }
+
+#page {
+	width: 874px;
+	margin: 0;
+    background-color: white;
+	padding: 0 28px;
+    padding-top: 0px;
+    padding-right: 28px;
+    padding-bottom: 0px;
+    padding-left: 28px;
+	height: auto
+	margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
 h1 {
 	background-color: lightblue;
+
 }
 
 ul {
@@ -20,7 +53,7 @@ ul {
 */
     list-style-type: none;
 	position: relative;
-    margin: 0;
+    margin: 10;
     padding: 0;
     overflow: hidden;
     background-color: #00B7E4;
