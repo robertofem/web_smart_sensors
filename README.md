@@ -19,12 +19,12 @@ robertofem@uvigo.es
 
 
 The project contains the following folders:
-	* Doc: 	 Documentation related to the project
-	* en:  	 html sources for the English version
-	* es:  	 html sources for the Spanish version
-	* en:  	 html sources for the Galician version
-	* images: folder containing the images used in the smart_sensors web
-	* scripts:javascript code used in the project
+	* Doc: 	 Documentation related to the project  
+	* en:  	 html sources for the English version  
+	* es:  	 html sources for the Spanish version  
+	* en:  	 html sources for the Galician version  
+	* images: folder containing the images used in the smart_sensors web  
+	* scripts:javascript code used in the project  
 	* styles: css style sheets  
 
 
