@@ -96,8 +96,11 @@ ul li {
   display: inline;
 }
 
-.maintitle {
-    color: white;
+#header-title {
+	color: white;
+	font-size: 30;
+	font:bold;
+
 }
 
 

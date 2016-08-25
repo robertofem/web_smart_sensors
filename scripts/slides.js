@@ -2,11 +2,6 @@ var imageInterval = 4000
 var slideIndex = 0;
 showDivs(slideIndex);
 carousel();
-/*
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-*/
 
 
 /*
@@ -25,9 +20,14 @@ function showDivs(n) {
 	setBadge(slideIndex);
 }
 
+
+/*
+Function called when a badge button is pressed
+*/
 function currentDiv(n) {
   showDivs(slideIndex = n);
 }
+
 
 /*
 Function for changing the image of the slider at a fixed interval
@@ -43,7 +43,7 @@ function carousel() {
     if (slideIndex > x.length) {slideIndex = 1}
     x[slideIndex-1].style.display = "block";
 	setBadge(slideIndex);
-    setTimeout(carousel, imageInterval); // Change image every 2 seconds
+    setTimeout(carousel, imageInterval); // Change image every x seconds
 }
 
 
