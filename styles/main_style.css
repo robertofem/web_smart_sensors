@@ -1,0 +1,141 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+body {
+    background: #e1e5e8;
+        background-color: rgb(225, 229, 232);
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+}0
+
+.cl{
+	font-size: 0;
+	line-height: 0;
+	clear: both;
+	display: block;
+	height: 0;
+}
+
+footer {
+	background: #aaa;
+	color:white;
+	width: 874px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#page {
+	width: 874px;
+	margin: 0;
+    background-color: white;
+	padding: 0px 28px 50px 28px;
+	height: auto
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+h1 {
+	color: #15649C;
+	margin: 0px 0px 5px 0px;
+  	border-bottom: 5px solid #15649C;
+	padding: 0px;
+}
+
+.nav_bar {
+/*  
+    Set margin: 0; and padding: 0; to remove browser default settings
+    list-style-type: none;  Removes the bullets. A navigation bar does not need list markers
+	position: fixed; Make the navigation bar stay at the top or the bottom of the page
+*/
+    list-style-type: none;
+	position: relative;
+	margin-top: -0.5px;
+    margin-bottom: 8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #15649C;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+ul li {
+    float: left;
+}
+
+
+.nav_bar li a {
+/* 
+    style the <a> elements inside the list and the nav_bar
+    Displaying the links as block elements makes the whole link area clickable (not just the text)
+*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #0f4870;
+}
+
+.nav_bar li a:hover {
+    background-color: #111;
+}
+
+.ib {
+  display: inline;
+}
+
+.maintitle {
+    color: white;
+}
+
+
+
+/* 
+	Code for the image slider
+*/
+
+
+.mySlides {
+	display:none;
+	margin-bottom:0px;
+}
+
+/* cursor property defines how will look the mouse arrow when putting it over the badge */
+.w3-badge {height:13px;width:13px;padding:0;cursor:pointer}
+
+
+#colaborators_list{
+	list-style-type: none;
+	position: relative;
+	margin-top: 0;
+    margin-bottom: 0;
+    padding: 50;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+#colaborators_list li a {
+/* 
+    style the <a> elements inside the list and the colaborators_list
+    Displaying the links as block elements makes the whole link area clickable (not just the text)
+*/
+	display: inline-block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+
