@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">	
@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="styles/main_style.css">
+		<link rel="stylesheet" type="text/css" href="../styles/main_style.css">
 		
 		<title>Smart Sensors</title>
 	</head>
@@ -19,14 +19,19 @@
 			
 			<!-- Header -->
 			<div class="w3-display-container">
-				<a href="http://dteweb.webs.uvigo.es">
-					<img src="images/logos/logo_DTE_small.png" align="left" width="190" >
-				</a>			
-				<a href="http://uvigo.gal/uvigo_en/index.html">
-					<img src="images/logos/uvigo_small.jpg" align="right" width="190">
+				<a href="http://dteweb.webs.uvigo.es" target="_blank">
+					<img src="../images/logos/logo_DTE_small.png" align="left" width="190" >
+				</a>
+				
+				<a href="../gl/index.html"><img src="../images/misc/gal_flag.png"></a>
+				<a href="#"><img src="../images/misc/esp_flag.png"></a>
+				<a href="../en/index.html"><img src="../images/misc/uk_flag.png"></a>
+				
+				<a href="http://uvigo.gal/uvigo_es/index.html" target="_blank">
+					<img src="../images/logos/uvigo_small.jpg" align="right" width="190">
 				</a>					
 				<a href="index.html">
-				<img src="images/misc/portada.jpg" style= "margin-top: 5px" width="818px">
+				<img src="../images/misc/portada.jpg" style= "margin-top: 5px" width="818px">
 				</a>
 				<div class="w3-display-middle w3-large" color="white">Smart Sensors Project</div>
 			</div>
@@ -34,25 +39,25 @@
 			<div class="w3-content w3-display-container">
 				<!-- Upper navigation bar with links to the different pages of the web -->
 				<ul class="nav_bar">
-				  <li class="nav_item"><a class="active" href="index.html">Home</a></li>
-				  <li class="nav_item"><a href="project.html">Project</a></li>
-				  <li class="nav_item"><a href="publications.html">Publications</a></li>
-				  <li class="nav_item"><a href="team.html">Team</a></li>
-				  <li class="nav_item"><a href="contact.html">Contact</a></li>
+				  <li class="nav_item"><a class="active" href="index.html">Inicio</a></li>
+				  <li class="nav_item"><a href="project.html">Proyecto</a></li>
+				  <li class="nav_item"><a href="publications.html">Publicaciones</a></li>
+				  <li class="nav_item"><a href="team.html">Equipo</a></li>
+				  <li class="nav_item"><a href="contact.html">Contacto</a></li>
 				</ul>
 				
 				<!-- Images slider with selector at the bottom -->
-				<img class="mySlides" src="images/photos/photo1.jpg" style="width:100%">
-				<img class="mySlides" src="images/photos/photo2.jpg" style="width:100%">
-				<img class="mySlides" src="images/photos/photo3.jpg" style="width:100%">
-				<img class="mySlides" src="images/photos/photo4.jpg" style="width:100%">
-				<img class="mySlides" src="images/photos/photo5.jpg" style="width:100%">
+				<img class="mySlides" src="../images/photos/photo1.jpg" style="width:100%">
+				<img class="mySlides" src="../images/photos/photo2.jpg" style="width:100%">
+				<img class="mySlides" src="../images/photos/photo3.jpg" style="width:100%">
+				<img class="mySlides" src="../images/photos/photo4.jpg" style="width:100%">
+				<img class="mySlides" src="../images/photos/photo5.jpg" style="width:100%">
  				<div class="w3-center w3-display-bottomleft" style="width:100%" >
-					<span class="w3-badge demo w3-transparent w3-hover-white w3-border" onclick="currentDiv(1)"></span>
-					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+					<span id="badge1" class="w3-badge demo w3-transparent w3-hover-white w3-border" onclick="currentDiv(1)"></span>
+					<span id="badge2" class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+					<span id="badge3" class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+					<span id="badge4" class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+					<span id="badge5" class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
 				</div>	
 			</div>
 
@@ -85,11 +90,11 @@
 					<h1>Colaborators</h1>
 
 					<ul id="colaborators_list">
-						<li><a href="http://ibivigo.webs.uvigo.es/index.php?lang=en">
-							<img src="images/logos/logo_instituto_ibi.png">
+						<li><a href="http://ibivigo.webs.uvigo.es/index.php?lang=en" target="_blank">
+							<img src="../images/logos/logo_instituto_ibi.png">
 						</a></li>
-						<li><a href="https://www.ncsu.edu/">
-							<img src="images/logos/logo_ncsu.jpeg">
+						<li><a href="https://www.ncsu.edu/" target="_blank">
+							<img src="../images/logos/logo_ncsu.jpeg">
 						</a></li>
 					</ul>
 
@@ -109,7 +114,7 @@
 			Copyright &copy Universidade de Vigo 2016
 		</footer>
 		
-		<script src="scripts/slides.js"></script>
+		<script src="../scripts/slides.js"></script>
 		
 	</body>
 </html>
