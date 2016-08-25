@@ -1,4 +1,4 @@
-# web_smart_sensors
+#web_smart_sensors
 
 Project of the Smart Sensors Project webpage, belonging to the Industrial Engineering School in the University of Vigo
 
@@ -28,6 +28,4 @@ The project contains the following folders:
 	.styles: css style sheets
 
 
-The html source files are based on the original_template.html file, obtained at the w3schools webpage
-
-Doc contiene documentación.
+The html source files are based on the original_template.html file, obtained at the w3schools webpage.
